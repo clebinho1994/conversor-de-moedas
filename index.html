@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Moedas</h1>
+
+    <div class="conversor">
+      <label for="suaMoeda">Valor:</label>
+      <input type="number" placeholder="Digite um valor">
+      <label for="moeda">Moeda desejada:</label>
+      <select name="moeda" id="moeda">
+        <option value="USD">Dólar Americano</option>
+        <option value="EUR">Euro</option>
+      </select>
+      <button type="submit">Converter</button>
+    </div>
+    <div class="valorConvertido">
+
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
